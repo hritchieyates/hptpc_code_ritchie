@@ -1,0 +1,39 @@
+#include <string>
+#include <sstream>
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include "TString.h"
+#include "TCanvas.h"
+#include "TGraph.h"
+#include "TString.h"
+#include "TStyle.h"
+
+void multiPurposePlotter(){
+  TCanvas* plotCanvas = new TCanvas("plotCanvas","plot of voltage vs event no", 200, 10, 500, 500);
+  plotCanvas->SetLeftMargin(0.12);
+  plotCanvas->SetRightMargin(0.12);
+  plotCanvas->SetBottomMargin(0.12);
+  
+  //Vectors of what to plot
+  std::vector<int> Voltage;
+  std::vector<int> NoEntries;
+
+  //Values to plot
+  Voltage.push_back(0);
+  Voltage.push_back(400);
+  Voltage.push_back(800);
+  Voltage.push_back(1200);
+  Voltage.push_back(1400);
+  Voltage.push_back(1600);
+  Voltage.push_back(1800);
+  Voltage.push_back(2000);
+  Voltage.push_back(2200);
+  Voltage.push_back(2400);
+  Voltage.push_back(2600);
+
+
+
+
+
+}

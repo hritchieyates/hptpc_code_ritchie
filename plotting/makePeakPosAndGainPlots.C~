@@ -1,0 +1,18 @@
+{
+  gROOT->ProcessLine(".X setUp_bkgVsSignal_libs.C");
+  gROOT->ProcessLine("compareDifferentRuns(\"MaxValueAnode3 > 35 && MaxValueAnode2 > 35 && MaxValueAnode1 < 15\",\"SchemeGas_Clean_Sparks_Trig2And3MaxOnly\", 2079057, 2079062, \"_anode3\")");
+  gROOT->ProcessLine("compareDifferentRuns(\"MaxValueAnode3 > 35 && MaxValueAnode2 > 35 && MaxValueAnode1 < 15\",\"SchemeGas_Clean_Sparks_Trig2And3MaxOnly\", 2080141, 2080165, \"_anode3\")");
+  gROOT->ProcessLine("compareDifferentRuns(\"MaxValueAnode3 > 35 && MaxValueAnode2 > 35 && MaxValueAnode1 < 15\",\"SchemeGas_Clean_Sparks_Trig2And3MaxOnly\", 2081070, 2081084, \"_anode3\")");
+  gROOT->ProcessLine("compareDifferentRuns(\"MaxValueAnode3 > 35 && MaxValueAnode2 > 35 && MaxValueAnode1 < 15\",\"SchemeGas_Clean_Sparks_Trig2And3MaxOnly\", 2082009, 2082024, \"_anode3\")");
+  gROOT->ProcessLine("compareDifferentRuns(\"MaxValueAnode3 > 35 && MaxValueAnode2 > 35 && MaxValueAnode1 < 15\",\"SchemeGas_Clean_Sparks_Trig2And3MaxOnly\", 2083022, 2083032, \"_anode3\")");
+  gROOT->ProcessLine(".L plotNoEntries.C");
+  gROOT->ProcessLine("plotNoEntries(\"SchemeGas_Clean_Sparks_Trig2And3MaxOnly\", \"SchemeGas\")");
+  gROOT->ProcessLine(".q");
+}
+
+
+
+{
+  gROOT->ProcessLine(".L plotPeakPositionWithShittyAxisLabels.C");
+  gROOT->ProcessLine
+}
